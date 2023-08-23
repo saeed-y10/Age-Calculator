@@ -1,0 +1,11 @@
+C:\Users\saeed\source\repos\Age Calculator\bin\Debug\Age Calculator.exe.config
+C:\Users\saeed\source\repos\Age Calculator\bin\Debug\Age Calculator.exe
+C:\Users\saeed\source\repos\Age Calculator\bin\Debug\Age Calculator.pdb
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age Calculator.csproj.AssemblyReference.cache
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age_Calculator.Form1.resources
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age_Calculator.Properties.Resources.resources
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age Calculator.csproj.GenerateResource.cache
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age Calculator.csproj.CoreCompileInputs.cache
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age Calculator.exe
+C:\Users\saeed\source\repos\Age Calculator\obj\Debug\Age Calculator.pdb
