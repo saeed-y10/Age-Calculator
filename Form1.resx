@@ -117,7 +117,294 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="dtBirthDate.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="txbHead.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="panelHead.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="pictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="pictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dtCurrentDate.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="chkCustomDate.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnCaluculate.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="gbAge.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalSeconds.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalMinutes.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalHours.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalDays.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblDays.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblMonths.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblYears.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalSeconds.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalMinutes.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalHours.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblTotalDays.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label7.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblDays.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblMonths.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lblYears.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="btnClear.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="label9.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label8.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAADQAAAB2AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAA
+        AH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAA
+        AH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAB/AAAAfwAA
+        AH8AAAB/AAAAfwAAAHYAAAA0AAAAAQAAAAAAAAAAAAAANAAAAMMAAAD6AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPoAAADDAAAAMwAAAAAAAAAAAAAAdgAAAPrPy8j/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+He/8G9uv8AAAD6AAAAdgAAAAAAAAAAAAAAfwAA
+        AP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAA
+        AAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a
+        1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/jImH/woK
+        Cv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8KCgr/jIqI/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/5+Lf/9/a1/8JCQn7AAAAeAAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/d3Rz/wAAAP8vW33/L1t9/y9bff8vW33/L1t9/y9bff8vW33/L1t9/y9bff8vW33/L1t9/y9b
+        ff8vW33/L1t9/y9bff8vW33/L1t9/y9bff8vW33/L1t9/y9bff8vW33/LFh9/yhUff8AAAD/d3Vz/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/9yb27YAAAAMQAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/d3Rz/wAAAP9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3
+        +/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/WLD7/1Gp
+        +/8AAAD/d3Vz/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1//f2te/AAAAAAAAAAAAAAAAAAAAfwAA
+        AP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/d3Rz/wAAAP9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3
+        +/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3
+        +/9ft/v/WLD7/1Gp+/8AAAD/d3Vz/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8fHh7zAAAAZwAA
+        AAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/d3Rz/wAAAP9ft/v/X7f7/1+3
+        +/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3+/9ft/v/X7f7/1+3
+        +/9ft/v/X7f7/1+3+/9ft/v/WLD7/1Gp+/8AAAD/d3Vz/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a
+        1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/d3Rz/wAA
+        AP9etfj/Roa4/yFAWP8iQVn/Roe5/161+P9etfj/Roa4/yFAWP8iQVn/Roe5/161+P9etfj/Roa4/yFA
+        WP8iQVn/Roe5/161+P9etfj/Roa4/yFAWP8iQVn/QIC5/1Cn+P8AAAD/d3Vz/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/d3Rz/wAAAP8wXH7/Bw0U/xEQKv8RECr/CA0U/zBcf/8wXH7/Bw0U/xEQKv8RECr/CA0U/zBc
+        f/8wXH7/Bw0U/xEQKv8RECr/CA0U/zBcf/8wXH7/Bw0U/xEQKv8RECr/BwwU/ylVf/8AAAD/d3Vz/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/d3Rz/wAAAP8HBhL/JSNc/1RPz/9UT8//JSJa/wYGEP8GBhD/JSJb/1RP
+        z/9UT8//JSJa/wYGEP8GBhD/JSJb/1RPz/9UT8//JSJa/wYGEP8GBhD/JSJb/1RPz/9UT8//JCFc/wYF
+        Ef8AAAD/d3Vz/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAA
+        AP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/d3Rz/wAAAP9QS8b/Xlfm/2Zf+v9mX/r/XVfl/1BL
+        xf9QS8X/XVfl/2Zf+v9mX/r/XVfl/1BLxf9QS8X/XVfl/2Zf+v9mX/r/XVfl/1BLxf9QS8X/XVfl/2Zf
+        +v9mX/r/WE7l/0c6xf8AAAD/d3Vz/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAA
+        AAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/d3Rz/wAAAP9mX/v/Zl/7/2Zf
+        +/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf
+        +/9mX/v/Zl/7/2Zf+/9mX/v/YFX7/1pK+v8AAAD/d3Vz/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a
+        1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/fXp5/wIC
+        Av9eV+b/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf
+        +/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/YFT7/1NE5P8CAgL/fXt5/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/pKCe/xYVFf8VEzT/GRc+/xkXPv8ZFz7/GRc+/xkXPv8ZFz7/GRc+/xkXPv8ZFz7/GRc+/xkX
+        Pv8ZFz7/GRc+/xkXPv8ZFz7/GRc+/xkXPv8ZFz7/GRc+/xkXPv8ZFz7/GBU+/xIPM/8WFRX/pKCe/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7Ofl/6WhoP9IR0b/Ozo5/w4ODv8NDQ3/NzY1/w0NDf8ODg7/Ozo5/zs6
+        Of8sKyv/AAAA/ykpKP8pKSj/AAAA/ywrK/87Ojn/Ozo5/w4ODv8NDQ3/NzY1/w0NDf8ODg7/Ozo5/0lH
+        R/+moqD/7Ofl/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAA
+        AP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/zs6Of84Njb/39rX/zc2
+        Nf87Ojn/7unm/+7p5v+zr63/AAAA/6ekof+npKH/AAAA/7Ovrf/u6eb/7unm/zs6Of83NjX/39rX/zc2
+        Nf87Ojn/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAA
+        AAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/zs6
+        Of84Njb/39rX/zc2Nf87Ojn/7unm/+7p5v+zr63/AAAA/6ekof+npKH/AAAA/7Ovrf/u6eb/7unm/zs6
+        Of83NjX/39rX/zc2Nf87Ojn/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a
+        1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/zs6Of8qKSj/qKSi/ykpKP87Ojn/7unm/+7p5v+zr63/AAAA/317ef99e3n/AAAA/7Ov
+        rf/u6eb/7unm/zs6Of8pKSj/p6Sh/ykpKP87Ojn/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/09OTf8AAAD/AAAA/wAAAP9QT03/7unm/+7p5v+5trP/DQ0N/wAA
+        AP8AAAD/DQ0N/7q2s//u6eb/7unm/09OTf8AAAD/AAAA/wAAAP9QT03/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/8zIxf+zr63/s6+t/7Ovrf/MyMX/7unm/+7p
+        5v/j3tv/uraz/7Ovrf+zr63/uraz/+Pe2//u6eb/7unm/8zIxf+zr63/s6+t/7Ovrf/MyMX/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAfwAA
+        AP/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/9PPzf9DQUH/EhIS/0NB
+        Qf/Tz83/7unm/+7p5v/l4d7/j4uK/yIhIf8iISH/j4yK/+Xh3v/u6eb/7unm/9PPzf9DQUH/ERER/0NB
+        Qf/Tz83/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAA
+        AAAAAAAAAAAAgAAAAP/v6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/25s
+        a/8JERf/I0Re/wkRF/9ubGv/7+rn/+/q5//EwL3/IiEh/xozRv8aM0b/IiEh/8TAvf/u6eb/7unm/25s
+        a/8IERf/I0Re/wgRF/9ubGv/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a
+        1/8AAAD/AAAAfwAAAAAAAAAAAAAAaCAgH/Pv6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+/q
+        5//v6uf/7+rn/05NS/8TJDL/TJLJ/xMkMv9OTUv/7+rn/+/q5/+5tbP/DAwL/zlul/85bZb/DAwM/7m1
+        s//u6eb/7unm/05NS/8TJDL/TJLJ/xMkMv9OTUv/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAANTQzb/v6uf/7+rn/+/q5//v6uf/7+rn/+/q
+        5//v6uf/7+rn/+/q5//v6uf/7+rn/5uYlv8HDhL/GjJF/wgOEv+cmZf/7+rn/+/q5//Tzsz/QD8+/xQm
+        Nf8UJjT/QUA//9PPzP/u6eb/7unm/5uYlv8HDhL/GjJF/wgOEv+cmZf/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAMHx6eNfv6uf/7+rn/+/q
+        5//v6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+Pf3P8wLy//AAAB/zEwMP/k39z/7+rn/+/q
+        5//r5uP/kI2L/xAQEP8QEBD/kY6M/+vm4//u6eb/7unm/+Pf3P8wLy//AAAB/zEwMP/k39z/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAeAsL
+        Cvvv6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+/q5/+koJ//Jycn/6Sg
+        n//v6uf/7+rn/+/q5//v6uf/3tnX/1FPT/9RT0//3tnX/+7p5v/u6eb/7unm/+7p5v+koJ//JyYm/6Sg
+        n//u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a1/8AAAD/AAAAfwAA
+        AAAAAAAAAAAAgAAAAP/v6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+/q
+        5//v6uf/7unm/+/q5//v6uf/7+rn/+/q5//v6uf/7+rn/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p
+        5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/7unm/+7p5v/u6eb/5+Lf/9/a
+        1/8AAAD/AAAAfwAAAAAAAAAAAAAAgAAAAP/n4t//5+Lf/+fi3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi
+        3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi
+        3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi3//n4t//5+Lf/+fi
+        3//n4t//497b/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAgAAAAP/g29j/4NvY/+Db2P/g29j/4NvY/+Db
+        2P/g29j/4NvY/+Db2P/g29j/4NvY/+Db2P/g29j/4NvY/+Db2P/g29j/4NvY/+Db2P/g29j/4NvY/9/a
+        1//f2tf/39rX/9/a1//f2tf/39rX/9/a1//f2tf/39rX/9/a1//f2tf/39rX/9/a1//f2tf/39rX/9/a
+        1//f2tf/39rX/9/a1//f2tf/39rX/9/a1/8AAAD/AAAAfwAAAAAAAAAAAAAAgAAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAfwAAAAAAAAAAAAAAgAAA
+        AP8zL33/My99/zMvff8zL33/My99/zMvff8zL33/My99/zMvff8zL33/My99/zMvff8zL33/My99/zMv
+        ff8zL33/My99/zMvff8zL33/My99/zMvff8zL33/My99/zMvff8zL33/My99/zMvff8zL33/My99/zMv
+        ff8zL33/My99/zMvff8zL33/My99/zMvff8zL33/My99/zMvff8zL33/MCp9/y0lff8AAAD/AAAAfwAA
+        AAAAAAAAAAAAgAAAAP9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2dg
+        /P9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf
+        +/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/YFX7/1pK
+        +v8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf
+        +/9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2dg/P9nYPz/Z2D8/2Zf+/9mX/v/Zl/7/2Zf
+        +/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Zf
+        +/9mX/v/YFX7/1pK+v8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/2Ve
+        +P9EQKj/NzSI/0RAqP9lXvj/Z2D8/2dg/P9nYPz/Z2D8/2Ve+P9FQKj/NzSI/0VAqP9lXvj/Z2D8/2Zf
+        +/9mX/v/Zl/7/2Ve+P9EQKj/NzOI/0RAqP9lXvj/Zl/7/2Zf+/9mX/v/Zl/7/2Ve+P9EQKj/NzOI/0RA
+        qP9lXvj/Zl/7/2Zf+/9mX/v/YFX7/1pK+v8AAAD/AAAAfwAAAAAAAAAAAAAAfwAAAP9mX/v/Zl/7/2Zf
+        +/9mX/v/Zl/7/0Q/p/8ICBX/AQEF/wgIFf9EP6j/Z2D8/2dg/P9nYPz/Z2D8/0Q/p/8ICBX/AQEF/wgI
+        Ff9EP6j/Z2D8/2Zf+/9mX/v/Zl/7/0Q/p/8ICBX/AQEF/wgIFf9EP6f/Zl/7/2Zf+/9mX/v/Zl/7/0Q/
+        p/8ICBX/AQEF/wgIFf9EP6f/Zl/7/2Zf+/9mX/v/YFX7/1pK+v8AAAD/AAAAfwAAAAAAAAAAAAAAfwAA
+        AP9mX/v/Zl/7/2Zf+/9mX/v/Zl/7/x8dTf8wLy7/wb27/zAvLv8fHU3/Z2D8/2dg/P9nYPz/Z2D8/x8d
+        Tf8wLy7/wr27/zAvLv8fHU3/Z2D8/2Zf+/9mX/v/Zl/7/x8dTf8wLy7/wb27/zAvLv8fHU3/Zl/7/2Zf
+        +/9mX/v/Zl/7/x8dTf8wLy7/wb27/zAvLv8fHU3/Zl/7/2Zf+/9mX/v/YFX7/1pK+v8AAAD/AAAAfwAA
+        AAAAAAAAAAAAeQAAAPxeV+b/Zl/7/2Zf+/9mX/v/Zl/7/xkXPv87Ojn/7unm/zs6Of8ZGD//Z2D8/2dg
+        /P9nYPz/Z2D8/xkXPv87Ojn/7+rn/zs6Of8ZGD//Z2D8/2Zf+/9mX/v/Zl/7/xkXPv87Ojn/7unm/zs6
+        Of8ZFz7/Zl/7/2Zf+/9mX/v/Zl/7/xkXPv87Ojn/7unm/zs6Of8ZFz7/Zl/7/2Zf+/9mX/v/YFT7/1NE
+        5P8AAAD8AAAAeQAAAAAAAAAAAAAAUAAAAOcVEzT/GRc+/xkXPv8ZFz7/GRc+/wYFD/87Ojn/7unm/zs6
+        Of8GBg//GRc+/xkXPv8ZFz7/GRc+/wYFD/87Ojn/7+rn/zs6Of8GBg//GRc+/xkXPv8ZFz7/GRc+/wYF
+        D/87Ojn/7unm/zs6Of8GBQ//GRc+/xkXPv8ZFz7/GRc+/wYFD/87Ojn/7unm/zs6Of8GBQ//GRc+/xkX
+        Pv8ZFz7/GBU+/xIPM/8AAADnAAAAUAAAAAAAAAAAAAAAAgAAAE4AAACxAAAAvwAAAL8AAAC/AAAAvwAA
+        AO87Ojn/7unm/zs6Of8AAADvAAAAvwAAAL8AAAC/AAAAvwAAAO87Ojn/7+rn/zs6Of8AAADvAAAAvwAA
+        AL8AAAC/AAAAvwAAAO87Ojn/7unm/zs6Of8AAADvAAAAvwAAAL8AAAC/AAAAvwAAAO87Ojn/7unm/zs6
+        Of8AAADvAAAAvwAAAL8AAAC/AAAAvwAAALEAAABOAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAL87Ojn/7unm/zs6Of8AAAC/AAAAAAAAAAAAAAAAAAAAAAAAAL87Ojn/7+rn/zs6
+        Of8AAAC/AAAAAAAAAAAAAAAAAAAAAAAAAL87Ojn/7unm/zs6Of8AAAC/AAAAAAAAAAAAAAAAAAAAAAAA
+        AL87Ojn/7unm/zs6Of8AAAC/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALEwLy//w7+8/zAvL/8AAACxAAAAAAAAAAAAAAAAAAAAAAAA
+        ALEwLy//w7+9/zAvL/8AAACxAAAAAAAAAAAAAAAAAAAAAAAAALEwLy//w7+8/zAvL/8AAACxAAAAAAAA
+        AAAAAAAAAAAAAAAAALEwLy//w7+8/zAvL/8AAACxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUAAADpAAAA+gAAAOkAAABVAAAAAAAA
+        AAAAAAAAAAAAAAAAAFUAAADpAAAA+gAAAOkAAABVAAAAAAAAAAAAAAAAAAAAAAAAAFUAAADpAAAA+gAA
+        AOkAAABVAAAAAAAAAAAAAAAAAAAAAAAAAFUAAADpAAAA+gAAAOkAAABVAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABUAAAAdQAA
+        AFQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABUAAAAdQAAAFQAAAAEAAAAAAAAAAAAAAAAAAAAAAAA
+        AAQAAABUAAAAdQAAAFQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABUAAAAdQAAAFQAAAAEAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////yBIAAAAAAAfIEgAAAAAAB
+        8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAD8gSAAAAAAAHyBIAA
+        AAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB
+        8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAA
+        AAAAAfIEgAAAAAAB8gTAAAAAAAHyBIAAAAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB
+        8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAAAAAAAfIEgAAAAAAB8gSAAAAAAAHyBIAA
+        AAAAAfIEgAAAAAAB8gSAAAAAAAHyBP8Hg8Hg//IE/weDweD/8gT/B4PB4P/yBP8Hg8Hg//IE////////
+        8gQ=
+</value>
+  </data>
 </root>

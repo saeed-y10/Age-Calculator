@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.dtBirthDate = new System.Windows.Forms.DateTimePicker();
             this.txbHead = new System.Windows.Forms.TextBox();
             this.panelHead = new System.Windows.Forms.Panel();
@@ -350,6 +351,7 @@
             this.Controls.Add(this.dtCurrentDate);
             this.Controls.Add(this.panelHead);
             this.Controls.Add(this.dtBirthDate);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Age Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
