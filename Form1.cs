@@ -94,8 +94,8 @@ namespace Age_Calculator
             dtCurrentDate.Value = DateTime.Now;
             dtCurrentDate.MinDate = DateTime.Now;
 
-            dtBirthDate.MaxDate = DateTime.Now;
             dtBirthDate.Value = DateTime.Now;
+            dtBirthDate.MaxDate = DateTime.Now;
         }
 
         private void ResetButtonsDefault()
@@ -137,11 +137,7 @@ namespace Age_Calculator
         private void btnCaluculate_Click(object sender, EventArgs e)
         {
             if (dtBirthDate.Value > dtCurrentDate.Value)
-            {
-                errorProvider1.SetIconAlignment(dtBirthDate, ErrorIconAlignment.MiddleRight);
-
-                errorProvider1.SetError(this.dtBirthDate, "Invaled date!");
-            }
+                return;
 
             else
             {
@@ -155,6 +151,5 @@ namespace Age_Calculator
             ResetAgeInfo();
             ResetButtonsDefault();
         }
-
     }
 }

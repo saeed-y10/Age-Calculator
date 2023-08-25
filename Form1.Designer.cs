@@ -30,17 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.dtBirthDate = new System.Windows.Forms.DateTimePicker();
-            this.txbHead = new System.Windows.Forms.TextBox();
-            this.panelHead = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.dtCurrentDate = new System.Windows.Forms.DateTimePicker();
-            this.chkCustomDate = new System.Windows.Forms.CheckBox();
-            this.btnCaluculate = new System.Windows.Forms.Button();
-            this.gbAge = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.lblTotalSeconds = new System.Windows.Forms.Label();
             this.lblTotalMinutes = new System.Windows.Forms.Label();
             this.lblTotalHours = new System.Windows.Forms.Label();
+            this.gbAge = new System.Windows.Forms.GroupBox();
             this.lblTotalDays = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -52,117 +49,62 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnCaluculate = new System.Windows.Forms.Button();
+            this.dtBirthDate = new System.Windows.Forms.DateTimePicker();
+            this.panelHead = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txbHead = new System.Windows.Forms.TextBox();
+            this.dtCurrentDate = new System.Windows.Forms.DateTimePicker();
+            this.chkCustomDate = new System.Windows.Forms.CheckBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.gbAge.SuspendLayout();
             this.panelHead.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.gbAge.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dtBirthDate
+            // panel1
             // 
-            this.dtBirthDate.CustomFormat = "dd/MM/yyyy";
-            this.dtBirthDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtBirthDate.Location = new System.Drawing.Point(118, 152);
-            this.dtBirthDate.Name = "dtBirthDate";
-            this.dtBirthDate.Size = new System.Drawing.Size(200, 22);
-            this.dtBirthDate.TabIndex = 0;
-            this.dtBirthDate.Value = new System.DateTime(2023, 8, 23, 0, 0, 0, 0);
-            this.dtBirthDate.ValueChanged += new System.EventHandler(this.dtBirthDate_ValueChanged);
+            this.panel1.AutoSize = true;
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Controls.Add(this.btnClear);
+            this.panel1.Controls.Add(this.gbAge);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.btnCaluculate);
+            this.panel1.Controls.Add(this.dtBirthDate);
+            this.panel1.Controls.Add(this.panelHead);
+            this.panel1.Controls.Add(this.dtCurrentDate);
+            this.panel1.Controls.Add(this.chkCustomDate);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(503, 445);
+            this.panel1.TabIndex = 0;
             // 
-            // txbHead
+            // label8
             // 
-            this.txbHead.BackColor = System.Drawing.SystemColors.Control;
-            this.txbHead.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txbHead.Cursor = System.Windows.Forms.Cursors.Default;
-            this.txbHead.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.txbHead.ForeColor = System.Drawing.Color.Maroon;
-            this.txbHead.Location = new System.Drawing.Point(3, 26);
-            this.txbHead.Multiline = true;
-            this.txbHead.Name = "txbHead";
-            this.txbHead.Size = new System.Drawing.Size(303, 48);
-            this.txbHead.TabIndex = 0;
-            this.txbHead.TabStop = false;
-            this.txbHead.Text = "Age Calculator";
-            this.txbHead.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(19, 152);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(85, 16);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "Date of Birth: ";
             // 
-            // panelHead
+            // btnClear
             // 
-            this.panelHead.Controls.Add(this.pictureBox1);
-            this.panelHead.Controls.Add(this.txbHead);
-            this.panelHead.Location = new System.Drawing.Point(12, 13);
-            this.panelHead.Name = "panelHead";
-            this.panelHead.Size = new System.Drawing.Size(478, 100);
-            this.panelHead.TabIndex = 1;
+            this.btnClear.Location = new System.Drawing.Point(403, 134);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(87, 32);
+            this.btnClear.TabIndex = 15;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // pictureBox1
+            // errorProvider1
             // 
-            this.pictureBox1.Image = global::Age_Calculator.Properties.Resources.AgeRange;
-            this.pictureBox1.Location = new System.Drawing.Point(294, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // dtCurrentDate
-            // 
-            this.dtCurrentDate.CustomFormat = "dd/MM/yyyy";
-            this.dtCurrentDate.Enabled = false;
-            this.dtCurrentDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtCurrentDate.Location = new System.Drawing.Point(118, 187);
-            this.dtCurrentDate.Name = "dtCurrentDate";
-            this.dtCurrentDate.Size = new System.Drawing.Size(200, 22);
-            this.dtCurrentDate.TabIndex = 1;
-            this.dtCurrentDate.TabStop = false;
-            this.dtCurrentDate.Value = new System.DateTime(2023, 8, 23, 0, 0, 0, 0);
-            // 
-            // chkCustomDate
-            // 
-            this.chkCustomDate.AutoSize = true;
-            this.chkCustomDate.Location = new System.Drawing.Point(324, 189);
-            this.chkCustomDate.Name = "chkCustomDate";
-            this.chkCustomDate.Size = new System.Drawing.Size(74, 20);
-            this.chkCustomDate.TabIndex = 2;
-            this.chkCustomDate.Text = "Custom";
-            this.chkCustomDate.UseVisualStyleBackColor = true;
-            this.chkCustomDate.CheckedChanged += new System.EventHandler(this.chkCustomDate_CheckedChanged);
-            // 
-            // btnCaluculate
-            // 
-            this.btnCaluculate.Location = new System.Drawing.Point(403, 182);
-            this.btnCaluculate.Name = "btnCaluculate";
-            this.btnCaluculate.Size = new System.Drawing.Size(87, 32);
-            this.btnCaluculate.TabIndex = 3;
-            this.btnCaluculate.Text = "Calculate";
-            this.btnCaluculate.UseVisualStyleBackColor = true;
-            this.btnCaluculate.Click += new System.EventHandler(this.btnCaluculate_Click);
-            // 
-            // gbAge
-            // 
-            this.gbAge.Controls.Add(this.lblTotalSeconds);
-            this.gbAge.Controls.Add(this.lblTotalMinutes);
-            this.gbAge.Controls.Add(this.lblTotalHours);
-            this.gbAge.Controls.Add(this.lblTotalDays);
-            this.gbAge.Controls.Add(this.label7);
-            this.gbAge.Controls.Add(this.label6);
-            this.gbAge.Controls.Add(this.label5);
-            this.gbAge.Controls.Add(this.label4);
-            this.gbAge.Controls.Add(this.lblDays);
-            this.gbAge.Controls.Add(this.lblMonths);
-            this.gbAge.Controls.Add(this.lblYears);
-            this.gbAge.Controls.Add(this.label3);
-            this.gbAge.Controls.Add(this.label2);
-            this.gbAge.Controls.Add(this.label1);
-            this.gbAge.Location = new System.Drawing.Point(12, 217);
-            this.gbAge.Name = "gbAge";
-            this.gbAge.Size = new System.Drawing.Size(478, 221);
-            this.gbAge.TabIndex = 7;
-            this.gbAge.TabStop = false;
-            this.gbAge.Text = "Age";
+            this.errorProvider1.BlinkRate = 200;
+            this.errorProvider1.ContainerControl = this;
             // 
             // lblTotalSeconds
             // 
@@ -193,6 +135,29 @@
             this.lblTotalHours.Size = new System.Drawing.Size(23, 22);
             this.lblTotalHours.TabIndex = 20;
             this.lblTotalHours.Text = "0";
+            // 
+            // gbAge
+            // 
+            this.gbAge.Controls.Add(this.lblTotalSeconds);
+            this.gbAge.Controls.Add(this.lblTotalMinutes);
+            this.gbAge.Controls.Add(this.lblTotalHours);
+            this.gbAge.Controls.Add(this.lblTotalDays);
+            this.gbAge.Controls.Add(this.label7);
+            this.gbAge.Controls.Add(this.label6);
+            this.gbAge.Controls.Add(this.label5);
+            this.gbAge.Controls.Add(this.label4);
+            this.gbAge.Controls.Add(this.lblDays);
+            this.gbAge.Controls.Add(this.lblMonths);
+            this.gbAge.Controls.Add(this.lblYears);
+            this.gbAge.Controls.Add(this.label3);
+            this.gbAge.Controls.Add(this.label2);
+            this.gbAge.Controls.Add(this.label1);
+            this.gbAge.Location = new System.Drawing.Point(12, 214);
+            this.gbAge.Name = "gbAge";
+            this.gbAge.Size = new System.Drawing.Size(478, 221);
+            this.gbAge.TabIndex = 16;
+            this.gbAge.TabStop = false;
+            this.gbAge.Text = "Age";
             // 
             // lblTotalDays
             // 
@@ -304,63 +269,112 @@
             this.label1.Text = "Years";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // btnClear
-            // 
-            this.btnClear.Location = new System.Drawing.Point(403, 137);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(87, 32);
-            this.btnClear.TabIndex = 4;
-            this.btnClear.Text = "Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // errorProvider1
-            // 
-            this.errorProvider1.ContainerControl = this;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(19, 155);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 16);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Date of Birth: ";
-            // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(19, 190);
+            this.label9.Location = new System.Drawing.Point(19, 187);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(87, 16);
-            this.label9.TabIndex = 9;
+            this.label9.TabIndex = 18;
             this.label9.Text = "Current Date: ";
+            // 
+            // btnCaluculate
+            // 
+            this.btnCaluculate.Location = new System.Drawing.Point(403, 179);
+            this.btnCaluculate.Name = "btnCaluculate";
+            this.btnCaluculate.Size = new System.Drawing.Size(87, 32);
+            this.btnCaluculate.TabIndex = 14;
+            this.btnCaluculate.Text = "Calculate";
+            this.btnCaluculate.UseVisualStyleBackColor = true;
+            this.btnCaluculate.Click += new System.EventHandler(this.btnCaluculate_Click);
+            // 
+            // dtBirthDate
+            // 
+            this.dtBirthDate.CustomFormat = "dd/MM/yyyy";
+            this.dtBirthDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtBirthDate.Location = new System.Drawing.Point(118, 149);
+            this.dtBirthDate.Name = "dtBirthDate";
+            this.dtBirthDate.Size = new System.Drawing.Size(200, 22);
+            this.dtBirthDate.TabIndex = 10;
+            this.dtBirthDate.Value = new System.DateTime(2023, 8, 23, 0, 0, 0, 0);
+            this.dtBirthDate.ValueChanged += new System.EventHandler(this.dtBirthDate_ValueChanged);
+            // 
+            // panelHead
+            // 
+            this.panelHead.Controls.Add(this.pictureBox1);
+            this.panelHead.Controls.Add(this.txbHead);
+            this.panelHead.Location = new System.Drawing.Point(12, 10);
+            this.panelHead.Name = "panelHead";
+            this.panelHead.Size = new System.Drawing.Size(478, 100);
+            this.panelHead.TabIndex = 11;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Age_Calculator.Properties.Resources.AgeRange;
+            this.pictureBox1.Location = new System.Drawing.Point(294, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(151, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // txbHead
+            // 
+            this.txbHead.BackColor = System.Drawing.SystemColors.Control;
+            this.txbHead.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txbHead.Cursor = System.Windows.Forms.Cursors.Default;
+            this.txbHead.Font = new System.Drawing.Font("Comic Sans MS", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.txbHead.ForeColor = System.Drawing.Color.Maroon;
+            this.txbHead.Location = new System.Drawing.Point(3, 26);
+            this.txbHead.Multiline = true;
+            this.txbHead.Name = "txbHead";
+            this.txbHead.Size = new System.Drawing.Size(303, 48);
+            this.txbHead.TabIndex = 0;
+            this.txbHead.TabStop = false;
+            this.txbHead.Text = "Age Calculator";
+            this.txbHead.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // dtCurrentDate
+            // 
+            this.dtCurrentDate.CustomFormat = "dd/MM/yyyy";
+            this.dtCurrentDate.Enabled = false;
+            this.dtCurrentDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtCurrentDate.Location = new System.Drawing.Point(118, 184);
+            this.dtCurrentDate.Name = "dtCurrentDate";
+            this.dtCurrentDate.Size = new System.Drawing.Size(200, 22);
+            this.dtCurrentDate.TabIndex = 12;
+            this.dtCurrentDate.TabStop = false;
+            this.dtCurrentDate.Value = new System.DateTime(2023, 8, 23, 0, 0, 0, 0);
+            // 
+            // chkCustomDate
+            // 
+            this.chkCustomDate.AutoSize = true;
+            this.chkCustomDate.Location = new System.Drawing.Point(324, 186);
+            this.chkCustomDate.Name = "chkCustomDate";
+            this.chkCustomDate.Size = new System.Drawing.Size(74, 20);
+            this.chkCustomDate.TabIndex = 13;
+            this.chkCustomDate.Text = "Custom";
+            this.chkCustomDate.UseVisualStyleBackColor = true;
+            this.chkCustomDate.CheckedChanged += new System.EventHandler(this.chkCustomDate_CheckedChanged);
             // 
             // Form1
             // 
-            this.AcceptButton = this.btnCaluculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(503, 445);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.gbAge);
-            this.Controls.Add(this.btnCaluculate);
-            this.Controls.Add(this.chkCustomDate);
-            this.Controls.Add(this.dtCurrentDate);
-            this.Controls.Add(this.panelHead);
-            this.Controls.Add(this.dtBirthDate);
+            this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Age Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.gbAge.ResumeLayout(false);
+            this.gbAge.PerformLayout();
             this.panelHead.ResumeLayout(false);
             this.panelHead.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.gbAge.ResumeLayout(false);
-            this.gbAge.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,32 +382,33 @@
 
         #endregion
 
-        private System.Windows.Forms.DateTimePicker dtBirthDate;
-        private System.Windows.Forms.TextBox txbHead;
-        private System.Windows.Forms.Panel panelHead;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DateTimePicker dtCurrentDate;
-        private System.Windows.Forms.CheckBox chkCustomDate;
-        private System.Windows.Forms.Button btnCaluculate;
-        private System.Windows.Forms.GroupBox gbAge;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblDays;
-        private System.Windows.Forms.Label lblMonths;
-        private System.Windows.Forms.Label lblYears;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.GroupBox gbAge;
         private System.Windows.Forms.Label lblTotalSeconds;
         private System.Windows.Forms.Label lblTotalMinutes;
         private System.Windows.Forms.Label lblTotalHours;
         private System.Windows.Forms.Label lblTotalDays;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblDays;
+        private System.Windows.Forms.Label lblMonths;
+        private System.Windows.Forms.Label lblYears;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button btnCaluculate;
+        private System.Windows.Forms.DateTimePicker dtBirthDate;
+        private System.Windows.Forms.Panel panelHead;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txbHead;
+        private System.Windows.Forms.DateTimePicker dtCurrentDate;
+        private System.Windows.Forms.CheckBox chkCustomDate;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 
